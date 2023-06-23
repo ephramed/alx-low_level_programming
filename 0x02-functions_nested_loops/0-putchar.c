@@ -1,25 +1,22 @@
-#include "_putchar.c"
-#include <string.h>
+#include "main.h"
 
 /**
  * main - entry point
- *
- *
- * 
+ * print _putchar to stdio
  * Return: return 0 (success)
  */
 
 int main(void)
 {
+	char puy[] = "_putchar\n";
 
-	char pu[]="_putchar\n";
-	
-	int i=0;
-	while (i < strlen(pu))
+	int i = 0;
+
+	while (i < 8)
 	{
-		_putchar(pu[i]);
-		i++;
+		_putchar(puy[i]);
 	}
+
 
 	return (0);
 }
