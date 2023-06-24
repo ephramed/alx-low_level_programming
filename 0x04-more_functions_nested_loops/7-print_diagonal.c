@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * print_diagonal - entry point
- * @n - input
+ * @n: input
+ * @i: counter 
  * function print diagonal
  * Return: returns 0 success
  */
